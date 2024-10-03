@@ -1,6 +1,6 @@
 
 import streamlit as st
-from transformers import GPT@Tokenizer, GPT2LMHeadModel
+from transformers import GPT2Tokenizer, GPT2LMHeadModel
 
 #load pretrained gpt2 model and tokenizer
 model_name="gpt2"
